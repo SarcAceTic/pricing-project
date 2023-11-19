@@ -6,7 +6,7 @@ const isEnabled = ref(false)
 <template>
   <main>
     <p class="text-center mt-10 bod-title">Our Pricing</p>
-    <v-switch class="switch-center mt-4" v-model="isEnabled">
+    <v-switch color="purple" class="switch-center mt-4" v-model="isEnabled">
       <template v-slot:label>
         <span class="switch-label">Annual</span>
       </template>
